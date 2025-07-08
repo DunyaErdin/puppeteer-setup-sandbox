@@ -1,13 +1,7 @@
 import puppeteer from "puppeteer-extra";
 import StealthPlugin from "puppeteer-extra-plugin-stealth";
-import FingerprintJS from '@fingerprintjs/fingerprintjs-pro'
 
 puppeteer.use(StealthPlugin())
-const fpPromise = FingerprintJS.load({
-  apiKey: "ZxqlsA3ynf94AaQAXgoU",
-  region: "eu"
-})
-fpPromise.then(fp => fp.get()).then(result => console.log(result.visitorId))
 
 const delay = (min, max) =>
   Math.floor(Math.random() * (max - min + 1)) + min;
