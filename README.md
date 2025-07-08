@@ -9,11 +9,11 @@ This repository includes a basic setup and minimal boilerplate for working with 
 
 ## 📁 What’s Inside?
 
-- Puppeteer installation and initialization
-- Headless Chromium launch configuration
-- ES Module syntax (`import`, `export`)
-- Basic script structure for building bots later
-- Commented placeholders for future automation logic
+- Puppeteer installation and initialization  
+- Headless Chromium launch configuration  
+- ES Module syntax (`import`, `export`)  
+- Basic script structure for building bots later  
+- Commented placeholders for future automation logic  
 
 ---
 
@@ -21,22 +21,22 @@ This repository includes a basic setup and minimal boilerplate for working with 
 
 ### 1. Make Sure Your `package.json` Includes:
 
-````json
+```json
 {
   "type": "module"
 }
-This enables ES module syntax like import instead of require.
+````
+his enables ES module syntax like import instead of require.
 
 2. Install Dependencies
-bash
-Kopyala
-Düzenle
+````bash
 npm install puppeteer
+````
 3. Run the Script
-bash
-Kopyala
-Düzenle
+````bash
 node app.js
+````
+
 🔧 Features
 Launches a headless (or optionally visible) Chromium browser
 
