@@ -65,3 +65,5 @@ It is meant for learning and building upon, not for production use.
 
 🤝 Contributions
 Feel free to fork, build on it, and turn it into a working bot or automation tool. Pull requests are welcome!
+
+![Logo](https://github.com/DunyaErdin/DunyaErdin/blob/master/Dunya.png)
